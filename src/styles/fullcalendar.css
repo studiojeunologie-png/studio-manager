@@ -1,0 +1,131 @@
+/* ── FullCalendar — Customisation Studio Manager ── */
+
+.fc-wrapper .fc {
+  font-family: 'DM Sans', system-ui, sans-serif;
+}
+
+/* Toolbar */
+.fc-wrapper .fc-toolbar-title {
+  font-family: 'Outfit', system-ui, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1A1A2E;
+}
+
+.fc-wrapper .fc-button {
+  background: #F5F5F7;
+  border: 1px solid #EBEBF0;
+  color: #1A1A2E;
+  border-radius: 10px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  padding: 6px 12px;
+  box-shadow: none;
+  transition: all 0.15s;
+}
+
+.fc-wrapper .fc-button:hover {
+  background: #EBEBF0;
+  border-color: #D6D6E0;
+}
+
+.fc-wrapper .fc-button-active,
+.fc-wrapper .fc-button:not(:disabled):active {
+  background: #6C63FF !important;
+  border-color: #5A52D9 !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+
+.fc-wrapper .fc-today-button {
+  background: #F0EFFF;
+  border-color: #C2BDFF;
+  color: #6C63FF;
+}
+
+.fc-wrapper .fc-today-button:hover {
+  background: #E0DEFF;
+}
+
+/* Grille */
+.fc-wrapper .fc-col-header-cell {
+  background: #FAFAFA;
+  padding: 10px 0;
+}
+
+.fc-wrapper .fc-col-header-cell-cushion {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgba(26, 26, 46, 0.4);
+  text-decoration: none;
+}
+
+.fc-wrapper .fc-timegrid-slot-label-cushion {
+  font-size: 0.75rem;
+  color: rgba(26, 26, 46, 0.35);
+}
+
+.fc-wrapper .fc-timegrid-now-indicator-line {
+  border-color: #FF6B6B;
+  border-width: 2px;
+}
+
+.fc-wrapper .fc-timegrid-now-indicator-arrow {
+  border-top-color: #FF6B6B;
+  border-bottom-color: #FF6B6B;
+}
+
+/* Sélection */
+.fc-wrapper .fc-highlight {
+  background: rgba(108, 99, 255, 0.08);
+  border: 2px dashed rgba(108, 99, 255, 0.3);
+  border-radius: 8px;
+}
+
+/* Events */
+.fc-wrapper .fc-event {
+  border-radius: 8px;
+  padding: 2px 6px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.15s, transform 0.1s;
+}
+
+.fc-wrapper .fc-event:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.fc-wrapper .fc-event .fc-event-title {
+  font-weight: 600;
+}
+
+/* Business hours */
+.fc-wrapper .fc-non-business {
+  background: rgba(0, 0, 0, 0.015);
+}
+
+/* Today column */
+.fc-wrapper .fc-day-today {
+  background: rgba(108, 99, 255, 0.025) !important;
+}
+
+/* Dayview month */
+.fc-wrapper .fc-daygrid-event {
+  border-radius: 6px;
+  padding: 1px 6px;
+  font-size: 0.75rem;
+}
+
+/* Scrollbar */
+.fc-wrapper .fc-scroller::-webkit-scrollbar {
+  width: 4px;
+}
+.fc-wrapper .fc-scroller::-webkit-scrollbar-thumb {
+  background: #D6D6E0;
+  border-radius: 4px;
+}
